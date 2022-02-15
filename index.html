@@ -1,0 +1,233 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Poppins:100,200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="./img/logo/logo_16px.jpg" type="image/gif" sizes="16x16">
+    <title>Primii Pași în Informatică</title>
+  </head>
+  <script type="text/javascript">
+    messages = [ "Primii Pași în Informatică", "Acasă" ]
+
+    function rotateTitle() {
+        index = 0
+
+        setInterval(function() {
+            if (messages.length == index) {
+                index = 0
+            }
+
+            document.title = messages[index]
+
+            index++
+        }, 1500)
+    }
+</script>
+  <body onload="rotateTitle();">
+    <div class="main">
+        <header id="nume">
+            <div class="nume">
+                Primii Pași în Informatică
+            </div>
+            <nav>
+                <a href="despre.html">Despre</a>
+                <a href="echipa.html">Echipă</a>
+                <a href="decenoi.html">De ce noi?</a> 
+                <a href="cursuri.html">Cursuri</a>
+            </nav>
+            <a href="javascript:void(0);" onclick="myFunction()">
+                <img src="img/icon/menu.png">
+            </a>
+        </header>
+        <section id="navi">
+            <div class="x">
+                <br>
+                <a href="javascript:void(0);" onclick="myFunction2()">
+                    X
+                </a>
+            </div>
+            <div class="navi" id="navi"><center>
+                <a href="despre.html">Despre</a><br><br><br>
+                <a href="echipa.html">Echipă</a><br><br><br>
+                <a href="decenoi.html">De ce noi?</a><br><br><br> 
+                <a href="cursuri.html">Cursuri</a>
+                </center>
+            </div>     
+        </section>
+       <div class="titlu">
+            <center>
+                <h1>Primii Pași în Informatică</h1>
+            </center>
+            <center>
+                <p>Proiectul "Primii Pași în Informatică" vine în ajutorul elevilor care vor să intre în lumea
+                    programării, oferind meditații atât la informatică cât și la matematică, acesta fiind de 
+                    nivel gimnazial deocamdată.
+                  </p>
+            </center>
+        </div>
+        <br>
+        <center>
+        <a href="#about">
+            <button>
+                <center>
+                    Citește mai multe...
+                </center>
+            </button>
+        </a>
+        </center>
+    </div>
+    <div class="about" id="about">
+        <div class="desnoi">
+            <br><br>
+            <center>
+                <h2>Despre noi...</h2>
+            </center>
+        </div>
+        <div class="despre">
+            <div class="one">
+                <center>
+                    Echipa "Primii Pași în Informatică" este formată din trei membri absolvenți ai Colegiului Național de Informatică
+                "Grigore Moisil" din Brașov, dintre care doi fondatori, ce sunt studenți la Facultatea de Matematică și Informatică
+                din cadrul Universitații Transilvania din Brașov și un al treilea care este doar profesor ce este student la Facultatea de Drept
+                din cadrul Universitații Transilvania din Brașov. 
+                </center>
+            </div>
+            <hr>
+            <div class="two">
+                <center>
+                     Este primul proiect de genul acesta și dorim să ajutăm toți elevii care vor să învețe informatică. Scopul
+                acestui proiect este de a îndruma cât mai mulți elevi să facă primul pas în acest domeniu vast al informaticii, și poate să aleagă să practice 
+                această meserie. Totodată ne dorim să îi ajutăm pe elevi să vadă dacă acestul domeniu li se potrivește.
+                </center>
+            </div>
+        </div>
+        <div class="butoane">
+            <div class="b1">
+                <center>
+                    <a href="despre.html">
+                        <button>
+                            Află mai multe!
+                        </button>
+                    </a>
+                </center>
+            </div>
+            <div class="b2">
+                <center>
+                    <a href="#price">
+                        <button>
+                            Mai departe!
+                        </button>
+                    </a>
+                </center>
+            </div>
+        </div>   
+    </div>
+    <div class="price" id="price">
+        <div class="desnoi">
+            <br><br>
+            <center>
+                <h2>Cât costă ședința?</h2>
+            </center>
+        </div>
+        <div class="despre">
+            <div class="one">
+                <center>
+                    Costul ședinței diferă în funcție de cursul dorit. Prețul variază de la 40 de lei până la 60 de lei. Toate cursurile 
+                    vor fi de două ore și se vor desfășura pe Zoom. Colaborarea se va opri doar la cererea părinților, noi comunicându-le 
+                    acestora progresul copilului.
+                </center>
+            </div>
+            <div class="two">
+                <center>
+                    <img src="img/despre/price.jpg">
+                </center>
+            </div>
+        </div>
+        <div class="butoane">
+            <div class="b1">
+                <center>
+                    <a href="despre.html#pret">
+                        <button>
+                            Află mai multe!
+                        </button>
+                    </a>
+                </center>
+            </div>
+        </div>   
+    </div>
+    <footer>
+        <br><br>
+        <div class="social">
+            <div class="telefon">
+                <h1>
+                    <center>
+                        TELEFON
+                    </center>
+                </h1>
+                <hr>
+                <h3>
+                    <center>
+                        Bolba-Mateescu Andrei: 0720 110 644<br>
+                        Drăgoiu Marian-Adrian: 0744 902 206<br>
+                        Aranyoși Filip: 0783 075 608
+                    </center>
+                </h3>
+            </div>
+            <div class="soc">
+                <h1>
+                    <center>
+                        SOCIAL
+                    </center>
+                </h1>
+                <hr>
+                <h3>
+                    <center>
+                        <a href="https://www.facebook.com/primiipasiininformatica">
+                            <img src="img/icon/face.png">
+                        </a>
+                        <a href="https://www.instagram.com/primiipasiininfo/">
+                            <img src="img/icon/instagram-logo.png">
+                        </a>
+                    </center>
+                </h3>
+            </div>
+            <div class="mail">
+                <h1>
+                    <center>
+                        E-MAIL
+                    </center>
+                </h1>
+                <hr>
+                <h3>
+                    <center>
+                    primiipasiininfo@gmail.com   
+                    </center>
+                </h3>
+            </div>
+        </div>
+        <div class="cpy">
+            <center>
+                &#9400; Primii Pași în Informatică 2020
+            </center>
+        </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function myFunction() {
+    var x = document.getElementById("nume");
+    var y = document.getElementById("navi")
+        x.style.display = "none";
+        y.style.display = "block";
+    }
+
+    function myFunction2() {
+    var x = document.getElementById("nume");
+    var y = document.getElementById("navi")
+        x.style.display = "block";
+        y.style.display = "none";
+        location.reload(index.html);
+    }
+</script>
+</html> 

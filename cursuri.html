@@ -1,0 +1,367 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Poppins:100,200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="./img/logo/logo_16px.jpg" type="image/gif" sizes="16x16">
+    <title>Primii Pași în Informatică</title>
+  </head>
+  <script type="text/javascript">
+    messages = [ "Primii Pași în Informatică", "De ce noi?" ]
+
+    function rotateTitle() {
+        index = 0
+
+        setInterval(function() {
+            if (messages.length == index) {
+                index = 0
+            }
+
+            document.title = messages[index]
+
+            index++
+        }, 1500)
+    }
+</script>
+  <body onload="rotateTitle();">
+    <div class="cursuri">
+        <header id="nume">
+            <div class="nume">
+                Primii Pași în Informatică
+            </div>
+            <nav>
+                <a href="index.html">Acasă</a>
+                <a href="despre.html">Despre</a> 
+                <a href="echipa.html">Echipă</a>
+                <a href="decenoi.html">De ce noi?</a> 
+            </nav>
+            <a href="javascript:void(0);" onclick="myFunction()">
+                <img src="img/icon/menu.png">
+            </a>
+        </header>
+        <section id="navi">
+            <div class="x">
+                <br>
+                <a href="javascript:void(0);" onclick="myFunction2()">
+                    X
+                </a>
+            </div>
+            <div class="navi" id="navi"><center>
+                <a href="index.html">Acasă</a><br><br><br>
+                <a href="despre.html">Despre</a><br><br><br> 
+                <a href="echipa.html">Echipă</a><br><br><br>
+                <a href="decenoi.html">De ce noi?</a> 
+                </center>
+            </div>     
+        </section>
+        <div class="titlu">
+            <center>
+                <h1>Cursurile disponibile </h1>
+            </center>
+            <center>
+                <p>Proiectul "Primii Pași în Informatică" vă pune la dispoziție 4 cursuri disponibile pentru orice persoană.<br>
+                Acestea sunt cursuri de programare în limbajul C++, cursuri de matematică, cursuri de web design și cursuri de Microsoft Ofiice.
+                </p>
+            </center>
+        </div>
+        <br>
+        <center>
+            <a href="#curspres">
+                <button>
+                    Cursuri
+                </button>
+            </a>
+        </center>
+    </div> 
+
+    <div class="present" id="curspres">
+        <div class="responsive" id="responsive">
+            <div class="x">
+                <a href="javascript:void(0);" onclick="myFunction4()">
+                    X
+                </a>
+            </div>
+            <div class="info_res">
+                <center>
+                    <h1>
+                        Cursul C++
+                    </h1>
+                    <p>
+                        Cursul C++ este destinat atât elevilor de gimnaziu, cât și celor de liceu care vor să intre în lumea 
+                        programrării, începând cu limbajul C++. În cadrul acestui curs se vor pune bazele limbajului C++ și 
+                        totodată se va dezvolta modul de gândire al problemelor. Limbajul C++ se studiază la liceu și este limbajul din 
+                        care se susține examenul de bacalaureat.
+                        <br>
+                        Ședința este de două ore, iar costul acesteia este de 40 de lei. Orele se vor ține on-line pe platforma 
+                        Zoom.
+                        <br>
+                        La acest curs sunt disponibili doi profesori.
+                    </p>
+                </center>
+            </div>
+        </div>
+
+        <div class="responsive" id="responsive1">
+            <div class="x">
+                <a href="javascript:void(0);" onclick="myFunction41()">
+                    X
+                </a>
+            </div>
+            <div class="info_res">
+                <center>
+                    <h1>
+                        Cursul HTML și CSS
+                    </h1>
+                    <p>
+                        Cursul de HTML și CSS este destinat oricărei persoane ce dorește să învețe să creeze un site folosind HTML și CSS.
+                        Acest curs este destinat atât celor ce au bazele HTML și CSS, cât și pentru cei începători, cu care se va 
+                        începe de zero. La încetarea orelelor cursantul va putea crea de unul singur de la zero un site, asemenea
+                        site-ului acestui proiect. În plus, pe parcursul acestor ore cursantul va învăța și dezvoltarea unui site 
+                        pentru telefon.
+                        <br>
+                        Ședinta este de două ore, iar costul acesteia este de 50 de lei. Orele se vor ține on-line pe platforma 
+                        Zoom.
+                        <br>
+                        La acest curs este disponibil un profesor.
+                    </p>
+                </center>
+            </div>
+        </div>
+
+        <div class="responsive" id="responsive2">
+            <div class="x">
+                <a href="javascript:void(0);" onclick="myFunction42()">
+                    X
+                </a>
+            </div>
+            <div class="info_res">
+                <center>
+                    <h1>
+                        Cursul Microsoft Office
+                    </h1>
+                    <p>
+                        Cursul de Microsoft Office  este de asemenea destinat oricărei persoane ce dorește să învețe această
+                        suită. De asemenea și la acest curs pot venii atât persoane care nu au mai lucrat cu acest program, 
+                        cât și cei ce au mai avut tangență cu acesta. Nivelul de predare este cel ECDL, examenul specializat 
+                        pentru Microsoft Office. La finalul orelor cursantul va putea lua acest examen fară probleme. În cadrul
+                        cursului se vor studia Mirosoft Word, Excel, PowerPoint și Acces.
+                        <br>
+                        Ședinta este de două ore, iar costul acesteia este de 50 de lei. Orele se vor ține on-line pe platforma 
+                        Zoom.
+                        <br>
+                        La acest curs este disponibil un profesor.
+                    </p>
+                </center>
+            </div>
+        </div>
+
+        <div class="responsive" id="responsive3">
+            <div class="x">
+                <a href="javascript:void(0);" onclick="myFunction43()">
+                    X
+                </a>
+            </div>
+            <div class="info_res">
+                <center>
+                    <h1>
+                        Cursul de Matematică
+                    </h1>
+                    <p>
+                        Cursul de Matematică este destinat elevilor de gimnaziu, iar pentru cei de clasa a VIII-a punem la dispoziție
+                        pregătire pentru examen. Deși proiectul este unul de informatică, punem la dispoziție și cursuri de matematică
+                        deoarece matematica este esențială în acest domeniu. Momentan oferim pregătire doar la nivel de gimnaziu,
+                        ulterior ne dorim să ne extindem și la nivel de liceu.
+                        <br>
+                        Ședinta este de două ore, iar costul acesteia este de 60 de lei. Orele se vor ține on-line pe platforma 
+                        Zoom.
+                        <br>
+                        La acest curs este disponibil un profesor.
+                    </p>
+                </center>
+            </div>
+        </div>
+        <center>
+            <h1>
+                Cursuri
+            </h1>
+        </center>
+        <div class="curspres">
+            <div class="row">
+                <div class="medi">
+                    <center>
+                        <h1>
+                            C++
+                        </h1>
+                        <p>
+                            Cursul C++ este destinat atât elevilor de gimnaziu, cât și celor de liceu care vor să intre în lumea 
+                        programrării, începând cu limbajul C++.
+                        </p>
+                        <a href="javascript:void(0);" onclick="myFunction3()">
+                            Citește mai multe...
+                        </a>
+                    </center>
+                </div>
+                <div class="medi">
+                    <center>
+                        <h1>
+                            HTML & CSS
+                        </h1>
+                        <p>
+                            Cursul de HTML și CSS este destinat oricărei persoane ce dorește să învețe sa un site folosind HTML și Css..
+                        </p>
+                        <a href="javascript:void(0);" onclick="myFunction31()">
+                            Citește mai multe...
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <div class="row"  id="m2">
+                <div class="medi">
+                    <center>
+                        <h1>
+                            Office
+                        </h1>
+                        <p>
+                            Cursul de Microsoft Office  este de asemenea destinat oricărei persoane ce dorește să învețe această
+                    suită.
+                        </p>
+                        <a href="javascript:void(0);" onclick="myFunction32()">
+                            Citește mai multe...
+                        </a>
+                    </center>
+                </div>
+                <div class="medi">
+                    <center>
+                        <h1>
+                            Mate
+                        </h1>
+                        <p>
+                            Cursul de Matematică este destinat elevilor de gimnaziu, iar pentru cei de clasa a VIII-a punem la dispoziție
+                            pregătire pentru examen.
+                        </p>
+                        <a href="javascript:void(0);" onclick="myFunction33()">
+                            Citește mai multe...
+                        </a>
+                    </center>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <br><br>
+        <div class="social">
+            <div class="telefon">
+                <h1>
+                    <center>
+                        TELEFON
+                    </center>
+                </h1>
+                <hr>
+                <h3>
+                    <center>
+                        Bolba-Mateescu Andrei: 0720 110 644<br>
+                        Drăgoiu Marian-Adrian: 0744 902 206<br>
+                        Aranyoși Filip: 0783 075 608
+                    </center>
+                </h3>
+            </div>
+            <div class="soc">
+                <h1>
+                    <center>
+                        SOCIAL
+                    </center>
+                </h1>
+                <hr>
+                <h3>
+                    <center>
+                        <a href="https://www.facebook.com/primiipasiininformatica">
+                            <img src="img/icon/face.png">
+                        </a>
+                        <a href="https://www.instagram.com/primiipasiininfo/">
+                            <img src="img/icon/instagram-logo.png">
+                        </a>
+                    </center>
+                </h3>
+            </div>
+            <div class="mail">
+                <h1>
+                    <center>
+                        E-MAIL
+                    </center>
+                </h1>
+                <hr>
+                <h3>
+                    <center>
+                    primiipasiininfo@gmail.com   
+                    </center>
+                </h3>
+            </div>
+        </div>
+        <div class="cpy">
+            <center>
+                &#9400; Primii Pași în Informatică 2020
+            </center>
+        </div>
+    </footer> 
+</body>
+<script type="text/javascript">
+  function myFunction() {
+  var x = document.getElementById("nume");
+  var y = document.getElementById("navi")
+      x.style.display = "none";
+      y.style.display = "block";
+  }
+
+  function myFunction2() {
+  var x = document.getElementById("nume");
+  var y = document.getElementById("navi")
+      x.style.display = "block";
+      y.style.display = "none";
+      location.reload(index.html);
+  }
+
+  function myFunction3() {
+  var x = document.getElementById("responsive");
+      x.style.display = "block";
+  }
+
+  function myFunction31() {
+  var x = document.getElementById("responsive1");
+      x.style.display = "block";
+  }
+
+  function myFunction32() {
+  var x = document.getElementById("responsive2");
+      x.style.display = "block";
+  }
+
+  function myFunction33() {
+  var x = document.getElementById("responsive3");
+      x.style.display = "block";
+  }
+
+  function myFunction4() {
+  var x = document.getElementById("responsive");
+      x.style.display = "none";
+  }
+
+  function myFunction41() {
+  var x = document.getElementById("responsive1");
+      x.style.display = "none";
+  }
+
+  function myFunction42() {
+  var x = document.getElementById("responsive2");
+      x.style.display = "none";
+  }
+
+  function myFunction43() {
+  var x = document.getElementById("responsive3");
+      x.style.display = "none";
+  }
+</script>
+</html>
